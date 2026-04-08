@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+
+@theme inline {
+  --font-sans: "Montserrat", system-ui, sans-serif;
+}
+
+@layer base {
+
+  *,
+  ::before,
+  ::after {
+    font-family: var(--font-sans);
+  }
+
+  body {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
