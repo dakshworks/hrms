@@ -8,6 +8,9 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+.env
+BACKEND_IMPLEMENTATION_PLAN.md
+FRONTEND_API_DOCUMENTATION.md
 dist
 dist-ssr
 *.local
